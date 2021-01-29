@@ -13,7 +13,8 @@ export default {
 </script>
 <style scoped>
     #footer {
-        position: fixed;
+        clear: both;
+        position: relative;
         bottom: 0;
         width: 100%;
         background-color: #f1f1f1;
@@ -21,7 +22,7 @@ export default {
     }
     .footer-content{
         float: right;
-        padding: 100px;
+        padding: 100px 100px 0px 100px;
         color: #cccccc;
         font-weight: bolder;                                                                
     }
